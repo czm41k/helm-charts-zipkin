@@ -1,0 +1,19 @@
+---
+service:
+  internalPort: 9292
+  externalPort: 9292
+
+image:
+  repository: czm41k/ui
+  tag: 0.1.2
+
+ingress:
+  class: nginx
+
+postHost:
+postPort:
+commentHost:
+commentPort:
+zipkinEnabled: true
+zipkinHost: zipkin.default.svc.cluster.local
+...
