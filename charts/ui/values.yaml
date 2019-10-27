@@ -16,4 +16,5 @@ commentHost:
 commentPort:
 zipkinEnabled: true
 zipkinHost: zipkin.default.svc.cluster.local
+zipkinPort: 80
 ...
